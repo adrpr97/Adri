@@ -25,23 +25,18 @@ struct ContentView: View {
         
 //        NavigationView{
             ZStack{
-                Color.black
+                //Color.black
                 
                 VStack{
                     
                     TextEditor(text: $pippo)
                     //.background(Color.red)
                         .padding(.horizontal,15)
-                        .padding(.bottom,250)
+                
                         .font(.title).bold()
                     
                    
-//                    List{
-//                        ForEach (tests) { test in
-//                            Text(test.name)
-//
-//                        }
-//
+
                 }
                 
             }.toolbar(){

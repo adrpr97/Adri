@@ -11,7 +11,8 @@ import SwiftUI
 struct adriApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreen()
         }
+        .modelContainer(for: NoteItem.self)
     }
 }
